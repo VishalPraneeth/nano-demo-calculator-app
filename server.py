@@ -13,7 +13,7 @@ class Result:
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
-    return "Hello world!123"
+    return "Hello world!"
 
 @app.route("/calculator/add", methods=['POST'])
 def add():
